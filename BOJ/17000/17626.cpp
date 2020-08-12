@@ -4,7 +4,6 @@ using namespace std;
 const int MAX_N=50001;
 int N, dp[MAX_N];
 
-
 int main() {
     fill(dp, dp+50001, 1e9);
     dp[0]=0;
