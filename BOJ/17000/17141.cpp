@@ -86,5 +86,6 @@ int main() {
     int ret = dfs(0, M);
     if (ret == MAX_INF) ret = -1;
     printf("%d\n", ret);
+
     return 0;
 }
