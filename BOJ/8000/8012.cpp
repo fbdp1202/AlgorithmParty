@@ -54,7 +54,6 @@ int main() {
         int dist = 0;
         if (depth[u] < depth[v]) swap(u, v);
         int diff = depth[u] - depth[v];
-
         dist += diff;
 
         for (int j=0; diff; j++) {
